@@ -35,7 +35,7 @@ $(document).ready(function () {
       charts[chart_id].data.colors({
         data1: function (d) {
           return d.index >= scaledLowValue && d.index <= scaledHighValue
-            ? "#467fcf"
+            ? "#2B2B2B"
             : "#ececec";
         },
       });
